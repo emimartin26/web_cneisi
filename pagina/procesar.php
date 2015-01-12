@@ -30,7 +30,7 @@ $mail -> Port = 465;
 $mail -> SetFrom($email, "$email");
 $mail -> AddAddress($dest);
 $mail -> Username = "serverhouse26@gmail.com";
-$mail -> Password = "metanoia";
+$mail -> Password = "";
 $mail -> Subject = $asunto;
 $mail -> Body = $cuerpo;
 $mail -> WordWrap = 50;
